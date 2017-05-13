@@ -22,6 +22,7 @@ using Compat
 # Then define your abstract types:
 
 abstract AbstractMyType
+abstract AbstractMyType2 <: AbstractMyType
 
 # Some people make sure all export statements are at the top of the main module as well
 # Only values which are exported enter the namespace, anything else must be
