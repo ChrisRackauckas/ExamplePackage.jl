@@ -16,5 +16,5 @@ using Base.Test
 # large performance regressions.
 
 # @testset begin
-@testset begin include("do_print_tests.jl") end
+@testset "Output String Tests" begin include("output_string_tests.jl") end
 # end

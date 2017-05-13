@@ -8,5 +8,5 @@ using ExamplePackage, Base.Test
 
 # Write a few tests
 @test output_string(:MySymbol) == "MySymbol"
-@test output_string(:x) == "MySymbol"
+@test output_string(:x) == "x"
 @test_throws MethodError output_string("MySymbol")
