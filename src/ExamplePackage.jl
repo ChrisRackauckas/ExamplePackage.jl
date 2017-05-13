@@ -38,5 +38,6 @@ export output_string, added_function
 
 include("output_string.jl")
 include("my_new_file.jl")
+include("might_be_a_bad_idea.jl")
 
 end # module
