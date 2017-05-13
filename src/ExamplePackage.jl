@@ -31,11 +31,12 @@ abstract AbstractMyType
 # Note: You should try to keep exports to a minimum. Exports are the public API:
 # internal functionality should not be exported!
 
-export output_string
+export output_string, added_function
 
 # Now include the real code
 # Write your code in other files, otherwise the package outline gets muddled
 
 include("output_string.jl")
+include("my_new_file.jl")
 
 end # module
