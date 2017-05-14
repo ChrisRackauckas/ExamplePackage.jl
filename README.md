@@ -47,3 +47,15 @@ Pkg.clone("https://github.com/ChrisRackauckas/ExamplePackage.jl")
 For general tips for getting good performance, check out the following post:
 
 http://www.stochasticlifestyle.com/7-julia-gotchas-handle/
+
+## Where to Get Help
+
+There are many places to get help from the Julia community. I would like to highlight what I think are the most helpful. In many cases a quick chat can answer a lot of questions. The JuliaLang Gitter channel (linked with the IRC #julia freenode channel) is a great resource for asking general Julia questions:
+
+https://gitter.im/JuliaLang/julia
+
+The Julia Discourse is a forum of Julia users for general questions, with subtopics for questions on more specific topics such as machine learning and numerics.
+
+https://discourse.julialang.org/
+
+Lastly, you can also post to StackOverflow using the tag julia-lang.
