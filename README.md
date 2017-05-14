@@ -34,6 +34,14 @@ You should setup both Travis and AppVeyor. Travis is for Linux and Mac, while
 AppVeyor is for Windows. This will ensure that your package installs and runs
 and the most popular OSs.
 
+## Installing this Package
+
+Since this package is not registered, you must install it by cloning. To add this package, use:
+
+```julia
+Pkg.clone("https://github.com/ChrisRackauckas/ExamplePackage.jl")
+```
+
 ## Performance
 
 For general tips for getting good performance, check out the following post:
